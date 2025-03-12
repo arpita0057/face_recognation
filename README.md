@@ -1,39 +1,52 @@
-project title: face_recognation
+# project title: face_recognation
 The Face Recognition System is an application that uses advanced computer vision and machine learning techniques to detect and recognize faces in images or video streams. It can identify individuals based on their unique facial features and is often used in security, authentication, and user interaction applications. This project utilizes various libraries such as OpenCV, dlib, and face_recognition for real-time face detection and recognition.
 
-Prerequisites: 
+# Prerequisites: 
 Python 3.x (Recommended: Python 3.7+)
 PIP (Python Package Installer)
 
 
-Required Libraries:
-OpenCV: For image and video processing.
-dlib: For facial feature extraction and recognition.
-face_recognition: A wrapper for dlib to make face recognition simpler.
-numpy: For numerical operations
+# Required Libraries:
 
-You can install these dependencies using the following command:
+1) sklearn.datasets : Sklearn provides a wide range of functions for generating datasets, including functions for classification, regression, clustering, and more, which makes it a flexible tool for generating test datasets for different types of machine learning tasks
+2) fetch_lfw_people:
+3) pandas: Pandas is used to analyze data.
+4) face_recognition: A wrapper for dlib to make face recognition simpler.
+5) numpy: For numerical operations
+6) Matplotlib:Matplotlib is a low level graph plotting library in python that serves as a visualization utility.
 
-    pip install opencv-python dlib face_recognition numpy
 
-Installation:
+# Usage:
 
-1) Clone the repository:
-
-        git clone https://github.com/yourusername/face-recognition.git
-            cd face-recognition
-
-2) Install dependencies:
-
-         pip install -r requirements.txt
-
-3) (Optional) Install CMake if it's not installed (required for dlib):
-
-          sudo apt-get install cmake
-   
+1) Run the Jupyter Notebook
+2) jupyter notebook face_recognation.ipynb
+3) Follow the steps in the notebook to:
+4) Load face datasets
+5) Train the recognition model
+6) Test real-time face recognition
 
 
 
+# Dataset
+
+Ensure you have a dataset of images with labeled faces. The dataset should be organized in separate folders per individual:
+
+                        /dataset/
+                           /person1/
+                               img1.jpg
+                               img2.jpg
+                           /person2/
+                               img1.jpg
+                               img2.jpg
+                        
+
+# project output:
+
+![image](https://github.com/user-attachments/assets/033f8f15-855f-4f9c-8beb-6de03af3587e)
+
+
+# contact: 
+for any issues or suggestion,open an issue or contact your - arpitalohar300@gmail.com
 
 
 
